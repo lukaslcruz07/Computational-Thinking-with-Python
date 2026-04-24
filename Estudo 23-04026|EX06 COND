@@ -1,11 +1,10 @@
-N = int(input("Digite um número maior que 0 e menor que 1000: "))
+Salario = float(input("Qual o seu salario? "))
+Emprestimo = float(input("Qual o valor do emprestimo? "))
 
-if N <= 0 or N >= 1000:
-    print(f'O número é inválido.')
+SE = Salario * 0.2
+
+if Emprestimo > Salario + SE:
+    print("Seu emprestimo foi NEGADO")
 
 else:
-   soma = 0
-   for i in str(N):
-       soma += int(i)
-
-   print(f'A soma de {N} em algárismo é {soma}')
+    print("Seu emprestimo foi APROVADO")

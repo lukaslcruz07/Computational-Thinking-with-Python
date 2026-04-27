@@ -1,0 +1,8 @@
+lista = []
+n = -1
+
+while n != 0:
+    n = int(input("Informe um número: "))
+    lista.append(n)
+
+print(lista)

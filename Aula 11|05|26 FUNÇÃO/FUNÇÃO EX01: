@@ -1,0 +1,44 @@
+#funções
+"""def validar_nota (nota):
+    while nota < 0 or nota > 10:
+        nota = float(input("Informe uma nota válida (entre 0 à 10):"))
+    return nota
+
+def aprovado_negado(n1, n2):
+    nf = (n1 + n2)/ 2
+    if nf >= 6:
+        print(f"Você foi aprovado!\n Sua media foi {nf}")
+
+    else:
+        print(f"Você foi negado!\n Sua media foi {nf}")
+
+N1 = float(input("Informe a primeira nota: "))
+N1 = validar_nota(N1)
+
+N2 = float(input("Informe a segunda nota: "))
+N2 = validar_nota(N2)
+aprovado_negado(N1, N2)"""
+
+def validar_nota (nota):
+    while nota < 0 or nota > 10:
+        nota = float(input("Informe uma nota válida (entre 0 à 10):"))
+    return nota
+
+def aprovado_negado(n1, n2):
+    nf = (n1 + n2)/ 2
+
+    return nf
+
+N1 = float(input("Informe a primeira nota: "))
+N1 = validar_nota(N1)
+
+N2 = float(input("Informe a segunda nota: "))
+N2 = validar_nota(N2)
+
+if aprovado_negado(N1, N2) >= 6:
+
+    print(f"Você foi aprovado!\n Sua media foi {nf}")
+
+else:
+    print(f"Você foi negado!\n Sua media foi {nf}")
+

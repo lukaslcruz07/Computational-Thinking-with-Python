@@ -1,0 +1,7 @@
+"""for var in range (start, stop, step) Ex:
+for numero in rage (0 , 10, 2)
+    print (numero)
+     0 2 4 6 8 """
+
+for numero in range (10, 0, -1):
+    print(numero)

@@ -1,0 +1,11 @@
+import random
+lista = []
+
+for i in range(20):
+    n = random.randint(1,50)
+    lista.append(n)
+
+print("Lista:",lista)
+print("Soma:", sum(lista))
+print("Máximo:",max(lista))
+print("Minimo:",min(lista))

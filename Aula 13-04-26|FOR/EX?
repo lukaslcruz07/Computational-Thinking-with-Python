@@ -1,0 +1,8 @@
+salario = 2000
+aumento = 0.015
+
+for ano in range(2016, 2025):
+    salario += salario * aumento
+    aumento *= 2
+
+print("Salário em 2024:", salario)

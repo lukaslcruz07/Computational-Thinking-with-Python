@@ -1,8 +1,0 @@
-N = int(input("Digite um número: "))
-
-if N > 0:
-    PN = N / 2
-    print(f'Seu número como foi positivo, ele dividido por 2 é igual a {PN} ')
-else:
-    NN = N * N
-    print(f'Seu número é negativo, então ele ao quadrado é igual a {NN} ')

@@ -1,7 +1,0 @@
-lista = []
-
-for i in range(5):
-    n = int(input('informe um Número: '))
-    lista.append(n)
-
-print(lista)

@@ -1,0 +1,2 @@
+CASO: Olá tudo bem?
+CASO: SALVE GALERA

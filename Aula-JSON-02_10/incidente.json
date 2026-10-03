@@ -1,0 +1,14 @@
+[
+    {
+        "servico": "pagamento",
+        "status": "ativo"
+    },
+    {
+        "servico": "Usuario",
+        "status": "indispônivel"
+    },
+    {
+        "servico": "Visualização",
+        "status": "desativada"
+    }
+]
